@@ -13,3 +13,8 @@ listaDeDestinos.push("Brasília"); // adicionando um item na lista
 console.log("Destinos possíveis:");
 // console.log(salvador, saoPaulo, rioDeJaneiro);
 console.log(listaDeDestinos);
+
+listaDeDestinos.splice(1,1);
+
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[1]);
